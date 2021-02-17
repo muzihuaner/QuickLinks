@@ -41,7 +41,7 @@ https://github.com/muzihuaner/QuickLinks
 
 ```
 <a href="https://myquicklinks.vercel.app/" target="blank" title="快链-友链接力">
-    <img src="https://myquicklinks.vercel.app/assets/QuickLinks.gif" alt="快链-友链接力" width="120">
+    <img src="https://cdn.jsdelivr.net/gh/muzihuaner/QuickLinks@main/assets/QuickLinks.gif" alt="快链-友链接力" width="120">
 </a>
 ```
 
