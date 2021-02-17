@@ -34,7 +34,7 @@
 
 ```
 <a href="https://myquicklinks.vercel.app/" target="blank" title="快链-友链接力">
-    <img src="https://myquicklinks.vercel.app/assets/logo.gif" alt="快链-友链接力" width="120">
+    <img src="https://myquicklinks.vercel.app/assets/QuickLinks.gif" alt="快链-友链接力" width="120">
 </a>
 ```
 
