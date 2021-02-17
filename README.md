@@ -86,6 +86,9 @@ https://github.com/muzihuaner/QuickLinks
 | --- | --- | --- | --- |
 | 0 | 缺省 | 快链 | https://github.com/muzihuaner/QuickLinks |
 | 1 | 底部 | 快点搜 | https://quickso.cn |
+| 2 | 底部 | 欢哥互联 | https://huangenet.cn |
+| 3 | 底部 | 知链短链 | https://zhiurl.cn |
+| 4 | 底部 | 点滴记忆 | https://www.cnblogs.com/HGNET/ |
 
 
 ---
