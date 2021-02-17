@@ -7,13 +7,13 @@
 
 “ 网页A → 快链 → 网页B → 快链 → 网页C → 快链 → 网页D → 快链 → 网页E → 快链 → 网页F … ”
 
-![example](https://myquicklinks.vercel.app/assets/QuickLinks.gif)
+![example](https://cdn.jsdelivr.net/gh/muzihuaner/QuickLinks@main/assets/QuickLinks.gif)
 
 
 ---
 
 
-项目仓库
+###项目仓库
 
 国内：<br>
 Gitee仓库：<br>
