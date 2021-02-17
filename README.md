@@ -1,4 +1,3 @@
-# QuickLinks
 # 快链-友链接力
 
 > 本站修改自https://github.com/volfclub/travellings
@@ -11,7 +10,7 @@
 
 “ 网页A → 快链 → 网页B → 快链 → 网页C → 快链 → 网页D → 快链 → 网页E → 快链 → 网页F … ”
 
-![example](https://travellings.now.sh/assets/logo.gif)
+![example](https://myquicklinks.vercel.app/assets/QuickLinks.gif)
 
 
 ---
@@ -27,11 +26,10 @@
 - **最佳实践**：将 `快链` 的外链（`https://myquicklinks.vercel.app/`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
   - 如是英文导航，可使用 `QuickLinks`；
 - **额外可选**：将快链的徽标放到您的底部或其他位置，表示对快链的支持：
-  - 动图 GIF：`https://travellings.now.sh/assets/logo.gif`
-  - 深色 PNG：`https://travellings.now.sh/assets/b.png`
-  - 浅色 PNG：`https://travellings.now.sh/assets/w.png`
-  - 方形 PNG：`https://travellings.now.sh/assets/travelling.png`
-  - 矢量 SVG：`https://travellings.now.sh/assets/logo.svg`
+  - 动图 GIF：https://myquicklinks.vercel.app/assets/QuickLinks.gif
+  - 深色 PNG：https://myquicklinks.vercel.app/assets/dark.png
+  - 浅色 PNG：https://myquicklinks.vercel.app/assets/light.png
+  - 矢量 SVG：https://myquicklinks.vercel.app/assets/logo.svg
   - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
 
 ```
@@ -41,16 +39,6 @@
 ```
 
 - 简易方案：将上方的代码插到您网页打开后就能看到的地方，如顶栏侧栏。
-
-【💡 举个例子】
-
-- 顶部放置快链外链（必要），侧栏放置快链徽标（可选）；
-
-![example1](https://myquicklinks.vercel.app/assets/example1.png)
-
-- 侧栏放置快链外链（必要），底部放置快链的徽标（可选）；
-
-![example2](https://myquicklinks.vercel.app/assets/example2.png)
 
 ### 3. 提个 issue，等待审核通过（有时间就维护）。
 
@@ -68,10 +56,10 @@
 
 ```
 <head>
-<script src="https://cdn.jsdelivr.net/gh/volfclub/travellings/assets/travelling.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/muzihuaner/QuickLinks@main/assets/QuickLinks.js"></script>
 </head>
 <body>
-<a href="javascript:travelling()" title="快链-友链接力"><img src="https://cdn.jsdelivr.net/gh/volfclub/travellings/assets/logo.gif" alt="快链-友链接力" width="120"></a>
+<a href="javascript:travelling()" title="快链-友链接力"><img src="https://cdn.jsdelivr.net/gh/muzihuaner/QuickLinks@main/assets/QuickLinks.gif" alt="快链-友链接力" width="120"></a>
 </body>
 ```
 
