@@ -1,6 +1,8 @@
 # 快链-友链接力
 
-
+国内：
+Gitee仓库：
+https://gitee.com/muzihuaner/QuickLinks/
 
 ## 使用说明
 
@@ -67,7 +69,7 @@
 
 - `https://muzihuaner.github.io/QuickLinks`
 
-- `/`
+- `https://muzihuaner.gitee.io/quicklinks`
 
 ---
 
