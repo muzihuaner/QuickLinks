@@ -1,9 +1,4 @@
 # 快链-友链接力
-
-国内：
-Gitee仓库：
-https://gitee.com/muzihuaner/QuickLinks/
-
 ## 使用说明
 
 将快链放入您的网页，表示您乐于分享并支持开放的网络。
@@ -16,6 +11,16 @@ https://gitee.com/muzihuaner/QuickLinks/
 
 
 ---
+
+
+项目仓库
+
+国内：<br>
+Gitee仓库：<br>
+https://gitee.com/muzihuaner/QuickLinks/<br>
+国外：<br>
+Github仓库：<br>
+https://github.com/muzihuaner/QuickLinks
 
 ### 1. 您的网页应满足：
 
