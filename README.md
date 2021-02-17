@@ -1,6 +1,6 @@
 # 快链-友链接力
 
-> 本站修改自https://github.com/volfclub/travellings
+
 
 ## 使用说明
 
@@ -154,3 +154,5 @@ A：`assets` 文件夹中有各种图片素材，可修改自行托管。
 ### Q：举报问题网页或退出快链？
 
 A：提个 issues 吧。
+
+> 本站修改自https://github.com/volfclub/travellings
