@@ -162,4 +162,4 @@ A：`assets` 文件夹中有各种图片素材，可修改自行托管。
 
 A：提个 issues 吧。
 
-> 本站修改自https://github.com/volfclub/travellings
+> 本项目修改自https://github.com/volfclub/travellings
