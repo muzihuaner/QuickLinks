@@ -1,39 +1,70 @@
+[English](./README_en.md) | 简体中文 |
 # 快链-友链接力
-## 使用说明
+---
 
-将快链放入您的网页，表示您乐于分享并支持开放的网络。
+![](https://img.shields.io/badge/%E6%AC%A2%E5%93%A5%E7%A7%91%E6%8A%80-%E5%BF%AB%E9%93%BE-blue)![GitHub Repo stars](https://img.shields.io/github/stars/muzihuaner/QuickLinks?style=social)![GitHub watchers](https://img.shields.io/github/watchers/muzihuaner/QuickLinks?style=social)
 
-每当有用户访问加入快链的网页时，点击快链后会**随机跳转**到另一个加入快链的网页。加入快链的网页越多，友链接力的规模越大，分享流量的规模也越大。
+开箱即用的网站友链交换解决方案。
+
+<img src="https://cdn.jsdelivr.net/gh/muzihuaner/QuickLinks@main/assets/QuickLinks.gif" alt="example" style="zoom:80%;" />
+
+- 预览：https://quickso.cn
+
+- 首页：https://myquicklinks.vercel.app
+
+  ------
+
+## 项目介绍
+
+快链是一个开箱即用的友链接力项目，您只需要将“快链”的徽标或者链接放入您的网页，提交审核，审核通过，就可以使用。
+
+可以用来增加网页流量和交个朋友（李姐万岁~）
+
+###### **原理**
+
+每当有用户访问加入快链的网页时，点击快链后会***\*随机跳转\****到另一个加入快链的网页。加入快链的网页越多，友链接力的规模越大，分享流量的规模也越大。
 
 “ 网页A → 快链 → 网页B → 快链 → 网页C → 快链 → 网页D → 快链 → 网页E → 快链 → 网页F … ”
 
-![example](https://cdn.jsdelivr.net/gh/muzihuaner/QuickLinks@main/assets/QuickLinks.gif)
+示例：
+
+![](https://gitee.com/muzihuaner/huangeimages/raw/master/img/20210217212713.png)
+------
+
+------
 
 
----
+## 项目仓库
 
+国际：Github
 
-###  项目仓库
-
-国内：<br>
-Gitee仓库：<br>
-https://gitee.com/muzihuaner/QuickLinks/<br>
-国外：<br>
-Github仓库：<br>
 https://github.com/muzihuaner/QuickLinks
-### 全站使用情况
+
+国内：Gitee
+
+https://gitee.com/muzihuaner/QuickLinks
+
+## 全站统计
+
 https://www.51.la/?comId=21061677
 
-### 1. 您的网页应满足：
+------
+
+## 使用
+
+### 1.您的网页应满足：
 
 - 愿为开放的网络做出贡献（如乐于分享知识经验等）；
 - 没有违法以及影响体验的内容（如侵入式广告等）；
 - 正常更新维护中（国内无法正常访问会被移除）；
+- 尽量使用https（没有也是可以的）;
 
-### 2. 将快链放到您网页**打开后就能看到的地方**（让友链接力下去）：
+### 2.将快链放到您网页\**打开后就能看到的地方\**（让友链接力下去）：
 
 - **最佳实践**：将 `快链` 的外链（`https://myquicklinks.vercel.app/`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
   - 如是英文导航，可使用 `QuickLinks`；
+  - 如需 Font Awesome ，推荐 `fa-bolt` （[点我预览](https://fontawesome.com/icons/bolt?style=solid)）；
+  - 如需 Emoji，推荐 `⚡`；
 - **额外可选**：将快链的徽标放到您的底部或其他位置，表示对快链的支持：
   - 动图 GIF：https://myquicklinks.vercel.app/assets/QuickLinks.gif
   - 深色 PNG：https://myquicklinks.vercel.app/assets/dark.png
@@ -41,29 +72,19 @@ https://www.51.la/?comId=21061677
   - 矢量 SVG：https://myquicklinks.vercel.app/assets/logo.svg
   - 💡 参考代码：（QuickLinks.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
 
-```
+```html
 <a href="https://myquicklinks.vercel.app/" target="blank" title="快链-友链接力">
     <img src="https://cdn.jsdelivr.net/gh/muzihuaner/QuickLinks@main/assets/QuickLinks.gif" alt="快链-友链接力" width="120">
 </a>
 ```
 
-- 简易方案：将上方的代码插到您网页打开后就能看到的地方，如顶栏侧栏。
+- **简易方案**：将上方的代码插到您网页打开后就能看到的地方，如顶栏侧栏。
 
-### 3. 提个 issue，等待审核通过（有时间就维护）。
+- **无缝接力 β**
 
-💡 常见的可能导致审核失败的原因：
+可用 jsdelivr 加速，中间无快链跳转页。
 
-- ⛔ 没有看到“快链”的图标
-
----
-
-### ~~无缝接力 β~~
-
-~~可用 jsdelivr 加速，中间无快链跳转页。~~ 
-
-> 🚨 不再推荐，可能更新不及时。
-
-```
+```html
 <head>
 <script src="https://cdn.jsdelivr.net/gh/muzihuaner/QuickLinks@main/assets/QuickLinks.js"></script>
 </head>
@@ -72,14 +93,27 @@ https://www.51.la/?comId=21061677
 </body>
 ```
 
-### 可选镜像
+>🔔 以上方案任选其一即可
+### 首页可选镜像
 
-- `https://muzihuaner.github.io/QuickLinks`
+- https://muzihuaner.github.io/QuickLinks
+- https://muzihuaner.gitee.io/quicklinks
+### 3.提个 issue，等待审核通过（有时间即维护）。
 
-- `https://muzihuaner.gitee.io/quicklinks`
+💡 常见的可能导致审核失败的原因：
 
----
+- ⛔ 在网页里看不到“快链”，或把快链放到了默认收起的的菜单中 —— ✅ 推荐放在顶栏侧栏底部等打开网页就能看到的地方，便于访客看到并点击；
+- ⛔ 网页不能访问（还没审核就挂了，ヾ(•ω•`)o）；
 
+------
+## 支持环境
+
+现代浏览器及 IE11。
+
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Opera |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                          IE11, Edge                          |                       last 2 versions                        |                       last 2 versions                        |                       last 2 versions                        |                       last 2 versions                        |
+------
 ## 网页收录 ✅
 
 当打开网页无法直接看到徽标或外链时，有 * 标记。
@@ -100,6 +134,8 @@ https://www.51.la/?comId=21061677
 如误处理或已修复问题，请提个 issue 吧，我们会尽快处理。常见的原因如下：
 - **LOST**：网页国内打不开或网址解析失败；
 - **QUIT**：网页看不到“快链”了，或已申请退出；
+- **ERROR**：网页显示服务器或 CDN 报错信息；
+- **BROKEN**：网页存在明显异常如 CSS 丢失等错误；
 
 | 序号 | 原因 | 名称 | 网址 |
 | --- | --- | --- | --- |
@@ -167,4 +203,13 @@ A：`assets` 文件夹中有各种图片素材，可修改自行托管。
 
 A：提个 issues 吧。
 
+## 参与贡献
+
+我们非常欢迎你的贡献，你可以通过以下方式和我们一起共建 :smiley:：
+
+- 在你的公司或个人项目中使用 Ant Design Pro。
+- 通过 [Issue](https://github.com/muzihuaner/QuickLinks/issues) 报告 bug 或进行咨询。
+- 提交 [Pull Request](https://github.com/muzihuaner/QuickLinks/pulls) 改进 快链 的代码。
+
 > 本项目修改自https://github.com/volfclub/travellings
+
