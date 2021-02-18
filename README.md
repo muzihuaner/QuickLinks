@@ -1,4 +1,3 @@
-[English](./README_en.md) | 简体中文 |
 # 快链-友链接力
 ---
 
