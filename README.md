@@ -69,8 +69,8 @@ https://www.51.la/?comId=21061677
   - 深色 PNG：https://myquicklinks.vercel.app/assets/dark.png
   - 浅色 PNG：https://myquicklinks.vercel.app/assets/light.png
   - 方形徽标 GIF：https://myquicklinks.vercel.app/assets/F_QuickLinks.gif
-  - 深色正方形 PNG：https://myquicklinks.vercel.app/assets/F_dark.png
-  - 浅色正方形：https://myquicklinks.vercel.app/assets/F_light.png
+  - 深色方形 PNG：https://myquicklinks.vercel.app/assets/F_dark.png
+  - 浅色方形 PNG：https://myquicklinks.vercel.app/assets/F_light.png
   - 矢量 SVG：https://myquicklinks.vercel.app/assets/logo.svg
   - 💡 参考代码：（QuickLinks.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
 
