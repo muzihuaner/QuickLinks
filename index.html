@@ -1,4 +1,4 @@
-<!--
+﻿<!--
    ____        _      _    _      _       _        
   / __ \      (_)    | |  | |    (_)     | |       
  | |  | |_   _ _  ___| | _| |     _ _ __ | | _____ 
@@ -10,294 +10,40 @@
 	快链-友链接力   https://github.com/muzihuaner/QuickLinks/
 	
 -->
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="assets/QuickLinks.js"></script>    
+    <script src="assets/QuickLinks.js"></script>
     <title>快链-友链接力</title>
     <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel='stylesheet' href='css/splitting.css'>
+    <link rel='stylesheet' href='css/splitting-cells.css'>
 
-    <style type="text/css">
-        a {
-            text-decoration: none
-        }
-        a {
-            color: #515C6B;
-        }
-        .blink {
-            animation: blink 3s linear infinite;
-            -webkit-animation: blink 3s linear infinite;
-            -moz-animation: blink 3s linear infinite;
-            -ms-animation: blink 3s linear infinite;
-            -o-animation: blink 3s linear infinite;
-        }
-        @keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-        @-webkit-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-        @-moz-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-        @-ms-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-        @-o-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-
-        .botCenter{
-            width:100%; height:35px; line-height:35px;  position:fixed; bottom:2px; left:0px; font-size:12px; text-align:center;
-            animation: botCenter 3s linear;
-            -webkit-animation: botCenter 3s linear;
-            -moz-animation: botCenter 3s linear;
-            -ms-animation: botCenter 3s linear;
-            -o-animation: botCenter 3s linear;
-            }
-            @keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-            20% {
-                opacity: 0;
-            }
-            40% {
-                opacity: 0.3;
-            }
-            80% {
-                opacity: 1;
-            }
-            90% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        @-webkit-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-            20% {
-                opacity: 0;
-            }
-            40% {
-                opacity: 0.3;
-            }
-            80% {
-                opacity: 1;
-            }
-            90% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        @-moz-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-            20% {
-                opacity: 0;
-            }
-            40% {
-                opacity: 0.3;
-            }
-            80% {
-                opacity: 1;
-            }
-            90% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        @-ms-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-            20% {
-                opacity: 0;
-            }
-            40% {
-                opacity: 0.3;
-            }
-            80% {
-                opacity: 1;
-            }
-            90% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        @-o-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-            20% {
-                opacity: 0;
-            }
-            40% {
-                opacity: 0.3;
-            }
-            80% {
-                opacity: 1;
-            }
-            90% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-    <table width="100%" height="100%" cellpadding="0" cellspacing="0">
-        <tbody>
-            <tr>
-                <td valign="middle" align="center" class="blink">
-                    <a href="https://github.com/muzihuaner/QuickLinks/" target="blank" title="点击加入“快链”，分享网站流量 :-)">欢迎，正在<b>&nbsp快链&nbsp</b>到下一个世界…<br />Welcome, Quick to the next world…</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="rainbow-text" data-splitting></div>
 
-    <div class="botCenter">
-        <a href="https://github.com/muzihuaner/QuickLinks/" target="_blank">Github</a>&nbsp;|&nbsp;
-        <a href="https://github.com/muzihuaner/QuickLinks/#%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95" target="_blank">Index</a>&nbsp;|&nbsp;
-       <script type="text/javascript" src="//js.users.51.la/21061677.js"></script>
+    <div class="rainbow-text animated" data-splitting>正在前往下一个世界…</div>
+
+    <script src='js/splitting.min.js'></script>
+    <script src="js/script.js"></script>
+
+    <div style="text-align:center;margin:50px 0; font:normal 10px/24px 'MicroSoft YaHei';">
+        |&nbsp;<a href="https://github.com/muzihuaner/QuickLinks/" target="_blank">Github</a>&nbsp;|&nbsp;
+        <a href="https://github.com/muzihuaner/QuickLinks/#%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95"
+            target="_blank">Index</a>&nbsp;|&nbsp;
+        <script type="text/javascript" src="//js.users.51.la/21061677.js"></script>
     </div>
- 
     <script language="javascript">
-        window.setTimeout("window.location.href='javascript:travelling()'",3000);
+        window.setTimeout("window.location.href='javascript:travelling()'", 3000);
     </script>
-
 </body>
+
 </html>
