@@ -213,5 +213,7 @@ A：提个 issues 吧。
 - 通过 [Issue](https://github.com/muzihuaner/QuickLinks/issues) 报告 bug 或进行咨询。
 - 提交 [Pull Request](https://github.com/muzihuaner/QuickLinks/pulls) 改进 快链 的代码。
 
-> 本项目修改自https://github.com/volfclub/travellings
+> 本项目参考
+> https://github.com/XXIIVV/webring
+> https://github.com/volfclub/travellings
 
