@@ -6,7 +6,7 @@ function travelling(){
     url[2]="https://huangenet.cn";
     url[3]="https://zhiurl.cn";
     url[4]="https://www.cnblogs.com/HGNET/";
-    url[5]="https://www.fwder.cn/";
+    url[5]="https://www.fwder.cn/"; 
    
 
 
