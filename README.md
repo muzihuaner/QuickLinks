@@ -99,6 +99,7 @@ https://www.51.la/?comId=21061677
 ### 首页可选镜像
 
 - https://muzihuaner.github.io/QuickLinks
+- https://quicklinks.netlify.app/
 - https://muzihuaner.gitee.io/quicklinks
 ### 3.提个 issue，等待审核通过（有时间即维护）。
 
