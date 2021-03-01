@@ -7,6 +7,7 @@ function travelling(){
     url[3]="https://zhiurl.cn";
     url[4]="https://blog.quickso.cn/";
     url[5]="https://www.fwder.cn/"; 
+    url[6]="https://moelinks.top/"; 
    
 
 
