@@ -101,6 +101,7 @@ https://www.51.la/?comId=21061677
 - https://muzihuaner.github.io/QuickLinks
 - https://quicklinks.netlify.app/
 - https://muzihuaner.gitee.io/quicklinks
+- https://quicklinks.pages.dev/
 ### 3.提个 issue，等待审核通过（有时间即维护）。
 
 💡 常见的可能导致审核失败的原因：
